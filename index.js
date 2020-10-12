@@ -25,7 +25,7 @@ function init(size) {
   // console.log(`[!] finalizado, total de movimentos -> ${mngMatrix.countMove}`)
 
   verifyConclusion(fnlQueens)
-  // showMatrixwithQueens(fnlQueens)
+  // mngMatrix.showMatrixwithQueens(fnlQueens)
 
   return [size, endTime, memoryUsed, mngMatrix.countMove]
 
@@ -399,4 +399,5 @@ function init(size) {
   }
 }
 
+init(8)
 module.exports = init
