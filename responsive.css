@@ -1,0 +1,52 @@
+@media only screen and (max-width: 900px) {
+  .wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  canvas {
+    width: 90vw;
+    height: 80vh;
+    min-width: 300px;
+    min-height: 300px;
+    background-color: #fff;
+    margin-top: 30px;
+  }
+
+  .wrapper-inputs {
+    align-items: center;
+    justify-content: center;
+  }
+
+  button,
+  #movement {
+    width: 150px;
+    height: 60px;
+    font-size: 22px;
+    margin-left: 0px;
+  }
+
+  input {
+    margin-left: 0px;
+    margin-bottom: 30px;
+    height: 60px;
+    width: 150px;
+    font-size: 22px;
+  }
+
+  #movement {
+    background-color: #303238;
+  }
+
+  p {
+    margin-left: 0px;
+    margin-bottom: 5px;
+  }
+  p:nth-of-type(2) {
+    margin-top: 30px;
+  }
+}
