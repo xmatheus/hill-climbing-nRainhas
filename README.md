@@ -3,6 +3,9 @@
 
 O objetivo é achar uma posição para as rainhas que elas não se ataquem na horizontal, diagonal e vertical.
 
+## Visualização
+
+https://xmatheus.github.io/hill-climbing-nRainhas/
 
 ### Necessário
 >  node >= 10.19.0
