@@ -108,6 +108,8 @@ a {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   position: absolute;
   bottom: 0;
+  transform: translate(-50%, -50%);
+  left: 50%;
   outline: none;
   border: none;
   color: #fff;
