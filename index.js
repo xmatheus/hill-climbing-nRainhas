@@ -1,17 +1,11 @@
 //ta tudo encapsulado na funcao init so para eu gerar os relatorios
-
 // size = qtd de rainhas e tamanho do tabuleiro size*size
-function init(size) {
-  let mngMatrix = null
-  // let size = 32
-  let matrix = null
-  let fnlQueens = null
 
-  console.time('')
+function init(size) {
   let begin = Date.now()
-  mngMatrix = manageMatrix()
-  matrix = mngMatrix.createMatrix(size)
-  fnlQueens = start()
+  let mngMatrix = manageMatrix()
+  let matrix = mngMatrix.createMatrix(size)
+  let fnlQueens = start()
 
   let end = Date.now()
   let endTime = end - begin
@@ -28,11 +22,6 @@ function init(size) {
   // mngMatrix.showMatrixwithQueens(fnlQueens)
 
   return [size, endTime, memoryUsed, mngMatrix.countMove]
-
-  // genRelatorio()
-  // appendCsv()
-
-  // mngMatrix.showMatrixwithQueens(fnlQueens)
 
   function manageMatrix() {
     let countMove = 0
@@ -399,5 +388,5 @@ function init(size) {
   }
 }
 
-init(8)
+// init(8)
 module.exports = init
