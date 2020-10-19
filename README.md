@@ -3,6 +3,9 @@
 
 O objetivo é achar uma posição para as rainhas que elas não se ataquem na horizontal, diagonal e vertical.
 
+> o algoritmo gera posições aleatórias para as rainhas.
+
+
 ## Visualização
 
 https://xmatheus.github.io/hill-climbing-nRainhas/
